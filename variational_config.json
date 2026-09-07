@@ -1,0 +1,31 @@
+{
+  "model": {
+    "boundary": "open",
+    "h_bar": 1.25,
+    "J": 1.0,
+    "field_convention": "h_i = h_bar + (-1)^i delta for one-based i"
+  },
+  "variational_scans": {
+    "N": 8,
+    "beta": 1.0,
+    "resonance_lambda": 0.02,
+    "resonance_delta_values": [0.5, 0.25, 0.125, 0.0625, 0.03125, 0.015625, 0.0078125, 0.0, 0.00390625, 0.001953125],
+    "resonance_plot_delta_values": [0.5, 0.25, 0.125, 0.0625, 0.03125, 0.015625, 0.0078125, 0.00390625, 0.001953125],
+    "coupling_delta": 0.25,
+    "coupling_lambda_values": [0.02, 0.05, 0.1, 0.2, 0.3, 0.45, 0.65, 1.0, 2.0, 0.8, 3.0],
+    "coupling_plot_lambda_values": [0.05, 0.1, 0.2, 0.3, 0.45, 0.65, 0.8, 1.0, 2.0, 3.0],
+    "random_starts": 8,
+    "random_seed": 1701,
+    "angle_bounds": [-3.141592653589793, 3.141592653589793],
+    "core_angle_bounds": [1e-6, 1.5707953267948966],
+    "maxiter": 500,
+    "ftol": 1e-13,
+    "gtol": 1e-9,
+    "maxls": 50,
+    "objective_comparison_atol": 1e-10,
+    "objective_comparison_rtol": 1e-8
+  },
+  "numerics": {
+    "pauli_prune_tolerance": 1e-13
+  }
+}
