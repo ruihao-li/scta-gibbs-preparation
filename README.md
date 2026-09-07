@@ -1,6 +1,7 @@
 # Numerical demonstration of SCTA local reduction
 
 This repository contains the source code for the numerical demonstration in "Spectral Core–Tail Architecture for Locally Certified Gibbs-State Preparation": [paper-link].
+
 It implements the open alternating-field graph-stabilizer chain, the scheduled first-order correction, the endpoint Gibbs-state comparisons, and the variational continuation through resonance and finite deformation.
 
 
@@ -9,11 +10,7 @@ It implements the open alternating-field graph-stabilizer chain, the scheduled f
 The benchmark uses the core-frame Hamiltonian
 
 $$
-H_C(\lambda)
-= -\sum_i h_i Z_i
-+ \lambda J \sum_i X_i X_{i+1},
-\qquad
-h_i = \bar{h} + (-1)^i \delta.
+H_C(\lambda) = -\sum_i h_i Z_i + \lambda J \sum_i X_i X_{i+1}, \qquad h_i = \bar{h} + (-1)^i \delta.
 $$
 
 Here the site labels are one-based, the boundaries are open, $\bar{h} = 1.25$, $J = 1$, and the default staggering is $\delta = 0.25$.
@@ -82,8 +79,7 @@ The shared point $(\delta, \lambda) = (0.25, 0.02)$ is optimized once and record
 For the cross-start robustness summary, an objective is called near-best when
 
 $$
-\lvert f - f_{\min} \rvert
-\leq \max\!\left(10^{-10}, 10^{-8}\lvert f_{\min} \rvert\right);
+\lvert f - f_{\min} \rvert \leq \max\left(10^{-10}, 10^{-8}\lvert f_{\min} \rvert\right);
 $$
 
 these comparison tolerances do not enter the L-BFGS-B optimization.
