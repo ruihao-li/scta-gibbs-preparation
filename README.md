@@ -1,6 +1,6 @@
 # Numerical demonstration of SCTA local reduction
 
-This repository contains the source code for the numerical demonstration in "Spectral Core–Tail Architecture for Locally Certified Gibbs-State Preparation": [paper-link].
+This repository contains the source code for the numerical demonstration in "[Spectral Core–Tail Architecture for Locally Certified Gibbs-State Preparation](https://doi.org/10.48550/arXiv.2609.09291)".
 
 It implements the open alternating-field graph-stabilizer chain, the scheduled first-order correction, the endpoint Gibbs-state comparisons, and the variational continuation through resonance and finite deformation.
 
