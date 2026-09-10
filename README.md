@@ -127,8 +127,18 @@ FIGURE_ROOT=/path/to/run/analysis/figures
 
 ## Citation
 
-If you use this software in research, please cite the associated paper.
-The complete bibliographic entry and public paper link will be added when they become available.
+If you use this software in research, please cite the associated paper:
+
+```
+@article{Li2026SCTA,
+  author = {Rui-Hao Li},
+  title = {Spectral Core–Tail Architecture for Locally Certified Gibbs-State Preparation},
+  year = {2026},
+  eprint = {2609.09291},
+  archivePrefix = {arXiv},
+  primaryClass = {quant-ph},
+}
+```
 
 ## License
 
